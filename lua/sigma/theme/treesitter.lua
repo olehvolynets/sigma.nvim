@@ -11,7 +11,7 @@ return {
     ["@function.builtin"] = { link = "Operator" },
     ["@property"] = { fg = c.lightBlue },
     ["@punctuation.special"] = { fg = c.bleachedCyan, italic = true },
-    ["@string.regexp"] = { fg = c.orangeDimmed },
+    ["@string.regexp"] = { fg = c.orange },
     ["@string.special.symbol"] = { fg = c.pinkWarm },
     ["@tag.attribute"] = { fg = c.pinkWarm },
     ["@tag.delimiter"] = { fg = c.invisibleGrey },

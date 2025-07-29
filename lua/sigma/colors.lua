@@ -53,8 +53,7 @@ local colors = {
     green = "#6bae86",
 
     lightYellow = "#FFEE99",
-    orange = "#d26619",
-    orangeDimmed = "#db8043",
+    orange = "#db8043",
 
     -- darkSea = "#345d89",
     darkBlue = "#569CD6",
