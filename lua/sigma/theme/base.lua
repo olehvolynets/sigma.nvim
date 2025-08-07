@@ -55,11 +55,12 @@ return {
     Pmenu = { bg = c.overlay.bg },
     PmenuSel = { bg = c.darkPink },
     PmenuKind = { fg = c.invisibleGrey },
-    PmenuKindSel = { link = "PmenuKind" },
+    PmenuKindSel = { fg = c.invisibleGrey, bg = c.darkPink },
     PmenuExtra = { fg = c.whiteIsh },
-    PmenuExtraSel = { link = "PmenuExtra" },
+    PmenuExtraSel = { fg = c.whiteIsh, bg = c.darkPink },
     PmenuSbar = { bg = c.overlay.bg },
     PmenuThumb = { bg = c.darkCyan },
+    PmenuMatch = { fg = c.blueIce, bold = true },
 
     Question = { link = "Comment" },
 
