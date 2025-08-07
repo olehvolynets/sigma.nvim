@@ -4,20 +4,21 @@ return {
     ["@comment.note"] = { link = "DiagnosticHint" },
     ["@comment.todo"] = { link = "DiagnosticInfo" },
     ["@conditional"] = { link = "Conditional" },
-    ["@constant"] = { fg = c.darkCyan },
-    ["@constant.builtin"] = { fg = c.orangeDimmed },
+    ["@constant"] = { fg = c.olive },
+    ["@constant.builtin"] = { fg = c.orange },
     ["@constant.macro"] = { link = "Macro" },
     ["@constructor"] = { fg = c.lightBlue },
-    ["@function.builtin"] = { link = "Operator" },
+    -- ["@function.builtin"] = { link = "Operator" },
+    ["@function.builtin"] = { fg = c.olive, bold = true },
     ["@property"] = { fg = c.lightBlue },
     ["@punctuation.special"] = { fg = c.bleachedCyan, italic = true },
     ["@string.regexp"] = { fg = c.orange },
     ["@string.special.symbol"] = { fg = c.pinkWarm },
     ["@tag.attribute"] = { fg = c.pinkWarm },
     ["@tag.delimiter"] = { fg = c.invisibleGrey },
-    ["@type.builtin"] = { fg = c.darkBlue },
+    ["@type.builtin"] = { link = "Type" },
     ["@type.qualifier"] = { link = "StorageClass" },
-    ["@variable"] = { fg = c.whiteIsh },
+    ["@variable"] = { link = "Identifier" },
     ["@variable.builtin"] = { fg = c.bleachedCyan, italic = true },
     ["@variable.member"] = { link = "@property" },
 
@@ -39,6 +40,12 @@ return {
 
     ["@lsp.typemod.variable.readonly"] = { link = "@constant" },
     ["@lsp.typemod.variable.defaultLibrary"] = { link = "@constant.builtin" },
+
+    ["@lsp.type.builtin"] = { link = "Type" },
     ["@lsp.typemod.type.defaultLibrary"] = { link = "@type.builtin" },
+
     ["@lsp.typemod.function.defaultLibrary"] = { link = "@function.builtin" },
+
+    -- Zig
+    ["@keyword.import.zig"] = { link = "Type" }
 }

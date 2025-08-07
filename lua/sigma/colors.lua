@@ -52,12 +52,17 @@ local colors = {
 
     green = "#6bae86",
 
+    olive = "#87af5f",
+    -- olive = "olive",
+
     lightYellow = "#FFEE99",
     orange = "#db8043",
+    goldenrod = "#af8700",
 
     -- darkSea = "#345d89",
     darkBlue = "#569CD6",
-    blueIce = "#58a3cf",
+    -- blueIce = "#58a3cf",
+    blueIce = "#5f87af",
     lightBlue = "#7aaeb8",
 
     lightPurple = "#a285ea",

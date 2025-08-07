@@ -126,7 +126,7 @@ return {
 
     Type = { fg = c.blueIce },
     StorageClass = { fg = c.pinkNeon, italic = true },
-    Structure = { fg = c.darkCyan, bold = true },
+    Structure = { fg = c.goldenrod },
     Typedef = { link = "Type" },
 
     Special = { fg = c.orange },
