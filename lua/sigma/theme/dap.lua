@@ -1,12 +1,12 @@
 local c = require("sigma.colors")
 
 return {
-    -- DapBreakpoint                = { fg = c.severity.error, bg = c.sideCol.bg },
-    -- DapBreakpointCondition       = { fg = c.severity.warning, bg = c.sideCol.bg },
-    -- DapBreakpointRejected        = { fg = c.severity.error, bg = c.sideCol.bg },
-    -- DapLogPoint                  = { fg = c.severity.info, bg = c.sideCol.bg },
-    -- DapStopped                   = { fg = c.severity.hint, bg = c.sideCol.bg },
-    --
+    DapBreakpoint                = { fg = c.severity.error,  }, --   bg = c.sideCol.bg },
+    DapBreakpointCondition       = { fg = c.severity.warning,}, --   bg = c.sideCol.bg },
+    DapBreakpointRejected        = { fg = c.severity.error,  }, --   bg = c.sideCol.bg },
+    DapLogPoint                  = { fg = c.severity.info,   }, --   bg = c.sideCol.bg },
+    DapStopped                   = { fg = c.severity.hint,   }, --   bg = c.sideCol.bg },
+
     DapUINormal                  = { link = "NormalFloat" },
     DapUIVariable                = { link = "@variable" },
     DapUIScope                   = { fg = c.darkCyan },
